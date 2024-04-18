@@ -1,28 +1,24 @@
-import { ChangeEvent,  useState } from "react";
+//import { ChangeEvent,  useState } from "react";
 
 
 
-type SearchByNameProps ={
-
-}
+//type SearchByNameProps ={}
 
 
 
 const SearchByName=()=>{
-const [searchName, setSearchName]= useState("");
+//const [searchName, setSearchName]= useState("");
 
 
-const handleInputSearch =(event:ChangeEvent<HTMLInputElement>)=>{
-   
-}
+//const handleInputSearch =(event:ChangeEvent<HTMLInputElement>)=>{}
 
   return (
     <div>
      <input
         type="text"
         placeholder="Search by name"
-        value={searchName}
-        onChange={handleInputSearch}
+        //value={searchName}
+        //onChange={handleInputSearch}
         />
       
     </div>
