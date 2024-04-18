@@ -2,6 +2,8 @@ import  { useState } from 'react'
 import "./Employee.scss"
 
 
+
+
 type EmployeeProps = {
    name:string;
    role:string;
@@ -9,6 +11,8 @@ type EmployeeProps = {
 }
 
 const Employee =({name,role}:EmployeeProps) =>{
+
+
 const [ticketCount,setTicketCount]= useState<number>(0);
 
 //increment the number
@@ -23,6 +27,7 @@ const decrementTicket = () =>{
     setTicketCount(ticketCount-1)
     }
 }
+
 
   return (
     <div >
